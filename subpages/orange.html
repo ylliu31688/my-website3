@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="zh-tw">
+
+	<head>
+		<meta charset="utf-8">
+		<title>orange page</title>
+		<style>
+		input[type="text"]
+		{
+		  width:250px;
+		  display:block;
+		  margin-bottom:10px;
+		  background-color:#cff;
+		  font-family:Verdana, Arial;
+		  
+		}
+		input:focus{background-color:#ff0;}
+		</style>
+	</head>
+	<body>
+	<form name="input-test" action="" method="">
+	  <p>帳號: <input type="text" name="tx_1" maxlength="8" placeholder="8 char"></p>
+	  <p>請問你有來過嗎？
+	     <input type="radio" name="yn" value="yes">是
+		 <input type="radio" name="yn" value="no">否
+	  </p>
+	  <p>要點什麼？
+		<input type="checkbox" name="cks" value="A餐">A餐
+		<input type="checkbox" name="cks" value="B餐">B餐
+		<input type="checkbox" name="cks" value="C餐">C餐
+	  </p>
+	  <p>訂購量<input type="number" name="byenym" min="2" max="200" step="2"></p>
+	  <p><input type="button" value="test"></p>
+	  <select name="youselect">
+		<option value="">O型</option>
+		<option value="">A型</option>
+		<option value="">B型</option>
+		<option value="">AB型</option>
+		
+	  </select>
+	   </p>
+	   <p>給你顏色<input type="color" name="gcolor"></p>
+	   <p>給你時間<input type="date" name="getdate"></p>
+	<a href="apple.html">apple 味</a><br>
+	<a href="../index.html">回頭是岸</a><br>
+	</body>
+
+
+</html>

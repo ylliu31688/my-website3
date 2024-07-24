@@ -1,0 +1,161 @@
+/*標題*/
+
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@media screen and (max-width: 1000px)
+{
+	   body{
+		   background-color:pink;
+	   }
+}  			
+ 
+body{
+  font-family:"Roboto","M PLUS 1",  sans-serif;
+ /* font-optical-sizing: auto;*/
+  font-weight:  normal ;
+  font-style: normal;
+  font-size:small;/*large;*/
+ /* background-image:url(images/org.png);*/
+ /* background-attachment:scroll;*/
+ /* background-size:contain;*/
+  background-repeat:repeat;
+}	
+h2[style*="color:red"]{
+			color:yellow  !important;
+		}
+	h1, h2{
+		border:ridge gray 10px;
+		width:500px;
+		color:blue;
+		text-align:center;
+		margin:0px auto;
+		font-size:2em;
+		text-decoration:none;
+		text-shadow:5px 5px 1em #87f, 1px 2px 0.1em #f87;
+		
+		box-shadow: gray 5px 10px 10px;
+		}
+		h1{
+			font-size:5em;
+			border-bottom:1px solid black;
+		}
+		
+		
+		a{
+			text-decoration:none;
+			 
+		}
+		/*  滑鼠事件 */
+		a:link{ color:red;}
+		a:visited{ color:green;}
+		
+		a:hover{
+			color:blue; font-size:2em;
+			text-decoration:underline;
+		}
+		a:active{color:gray;}
+		/* p */
+		p.abcdef{
+			font-variant:small-caps;
+			 background-color:lightblue;/*rgba(255,0,255,0.5);/*#f0f;pink;*/
+			 padding:50px; /*2em;*/
+			 border-width:10px;
+			 border-style:dotted;
+			 margin:20px auto;
+			 
+			 
+			 border-radius:5em;
+			 border-radius:10px;
+			  border-top-left-radius:3em 2em;
+			 
+			/* border:ridge gray 20px;*/
+			 /*border:outset gray 20px;*/
+			
+		}
+		p{
+			text-indent:2em;
+			line-height:2em;
+			letter-spacing:3px;
+			word-spacing:2em; 
+			background:linear-gradient(0deg,lightyellow 30%, lightgreen 70%);
+			/*background:linear-gradient(0deg,lightyellow 30%, lightgreen 70%);*/
+		}
+		p::first-letter{font-size:2em; color:Black;}
+		p.cobl{
+			padding: 4em;/*50px;*/
+			color:blue;
+			width:800px;
+			border:70px soild;
+			border-image-source:url(images/sqr-1.png);
+			border-image-slice:11 fill;
+			border-image-width:5%;
+			border-image-outset:50px;
+			border-image-repeat:round;
+			
+			
+		}
+		p.cord{
+			padding:2em;
+			color:red;
+			background-color:#aff;
+			background-image:url(images/org-s.png);
+			background-repeat:no-repeat;
+			background-position:bottom left;
+		}
+		.ylc{
+			background-color:lightyellow;
+		}
+		
+		#goo{
+			color:green;
+		}
+		
+		q{
+			color:red;
+		}
+		
+		body>em{color:red;
+		}
+		
+		h2+p{
+			color:green;
+		}
+		
+		/*replace*/
+		
+		img[alt|="血"]{
+			border:solid 2px red;
+		}
+		
+		img[src$="png"]{
+			background-color:lightblue;
+		}
+		
+		/* table style */
+		tr:nth-child(even){background-color:pink;}
+	    tr:nth-child(odd){background-color:lightgreen;}
+	    td:nth-child(1){text-align:center;}
+	    tr:first-child{background-color:lightgray;}
+		/*
+		body[lang|="zh"]
+		{
+			background-color:lightblue;
+		}
+		
+		
+		header{
+			background-color:lightgreen;
+		}
+		
+		aside{
+				background-color:lightblue;
+		}
+			
+			*/
+h2::before{
+	content:"*o*";
+	}
+h2::after{
+	content:"Happy 端午節";
+	}
